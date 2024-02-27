@@ -16,6 +16,12 @@
     <Filter Include="Resource Files\multimedia">
       <UniqueIdentifier>{1488839e-32a6-4718-a72e-46e2beb0ff8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Characters">
+      <UniqueIdentifier>{6a471b4c-6ef3-44a3-a7a3-9dac01d83e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Physics">
+      <UniqueIdentifier>{f7c5a410-3440-4e87-be21-8a9619760aa7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -30,6 +36,12 @@
     <ClCompile Include="Render.cpp">
       <Filter>Resource Files\multimedia</Filter>
     </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Resource Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="attraction.cpp">
+      <Filter>Resource Files\Physics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine.h">
@@ -39,6 +51,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="attraction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

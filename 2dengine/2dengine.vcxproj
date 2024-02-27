@@ -133,13 +133,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="attraction.cpp" />
     <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Hero.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Render.cpp" />
     <ClCompile Include="Sprite.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="attraction.h" />
     <ClInclude Include="Engine.h" />
+    <ClInclude Include="Hero.h" />
     <ClInclude Include="Render.h" />
     <ClInclude Include="Sprite.h" />
   </ItemGroup>
